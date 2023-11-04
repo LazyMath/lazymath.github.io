@@ -1,0 +1,29 @@
+*{
+    font-family: "Playfair Display", "consolas","sans-serif";
+    color: #0D3934;
+}
+body{
+    background-color: #F9F0F1;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 250px;
+}
+nav{
+    flex: 1;
+    text-align: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #0D3934;
+    font-family: "Playfair Display", "consolas","sans-serif";
+}
