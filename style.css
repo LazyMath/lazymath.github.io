@@ -70,3 +70,8 @@ button {
 ol li{
     list-style-type: none;
 }
+.credits{
+    color:#0D3934;
+    font-family: "Playfair Display", "consolas","sans-serif";
+    font-size: large;
+}
