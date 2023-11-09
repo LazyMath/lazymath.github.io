@@ -2,17 +2,22 @@ body{
     background-image: url(images/background.png);
     background-repeat: repeat;
     font-family: "Playfair Display", "consolas","sans-serif";
-    color: #0D3934;
+    color: black;
     padding-left: 12%;
     padding-right: 12%;
 }
 .navbar{
     height: 12%;
     display: flex;
+    color: black;
     align-items: center;
     background-color: #F9F0F1;
     font-family: "Playfair Display", "consolas","sans-serif";
-    color: #0D3934;
+}
+.info{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
 }
 .logo{
     width: 250px;
@@ -28,17 +33,14 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #0D3934;
     font-family: "Playfair Display", "consolas","sans-serif";
 }
 .invis{
     display: none;
-    color:#0D3934;
     font-family: "Playfair Display", "consolas","sans-serif";
 }
 .name{
     cursor: pointer;
-    color:#0D3934;
     font-family: "Playfair Display", "consolas","sans-serif";
     font-size: large;
 }
@@ -70,8 +72,15 @@ button {
 ol li{
     list-style-type: none;
 }
-.credits{
-    color:#0D3934;
-    font-family: "Playfair Display", "consolas","sans-serif";
-    font-size: large;
+.centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+.under_construction{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
 }

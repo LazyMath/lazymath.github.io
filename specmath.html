@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Specialist Mathematics UDFs</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script type="module">
+        e1 = document.getElementsBy
+        e2.style.display = "none"
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RK77D0HPQB"></script>
     <script>
@@ -17,6 +21,17 @@
     </script>
 </head>
 <body>
+    <script>
+        function toggle(input) {
+            var x = document.getElementById(input);
+            if (x.style.display == "none") {
+                x.style.display = "block";
+            }
+            else {
+                x.style.display = "none";
+            }
+        }
+    </script>
     <div class = "navbar">
         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
         <!-- Created with Inkscape (http://www.inkscape.org/) -->
@@ -74,83 +89,249 @@
         </nav>
     </div>
     <div class = "info">
-        <div class = "info" id = "vceinfo">
-            <h1 class = "title_text">VCE Resources:</h1>
-            <h1 class = "subtitle_text_1">User Defined Functions (UDFs):</h1>
-            <h2>What are they?</h2>
-            <p>
-                User defined functions are essentially shortcuts which allow users to work much more <b>efficiently</b> and <b>accurately</b> during tech access exams. 
-            </p>
-            <ul>
-                <li>
-                    <p>
-                        <h2 class = "subtitle_text">Specialist Mathematics UDFs:</h2>
-                        <p>Currently, our site offers specialist mathematics UDFs for linear algebra (Lines and Planes), we hope to expand this library
-                            in the future so we are able to better support VCE students during their exams. </p>
-                        <p><h3>How can you access them?</h3></p>
-                        <p><a href="specmath.html">Click here for Specialist UDFs</a></p>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <h2 class = "subtitle_text">Mathematical Methods UDFs:</h2>
-                        <p>Currently, our site offers a plethora of mathematical methods UDFs. Although there are already over 20 avaliable, if you feel like we missed 
-                            something, or would like to request us to make a new UDF, feel free to <a>contact us</a> via email. 
-                        </p>
-                        <p><h3>How can you access them?</h3></p>
-                        <p><a href="mathmeth.html">Click here for Math Methods UDFs</a></p>
-                    </p>
-                </li>
-            </ul>
-            <h1 class = "subtitle_text_1">Notes:</h1>
-            <ul>
-                <li>
-                    <h2 class = "subtitle_text">Chemistry Notes:</h2>
-                    <p>Currently, our site provides chemistry notes for the areas of study for the 2016-2023 study desgin. In the future, the content will be updated
-                        in order to meet the requirements of the new chemistry study design. 
-                    </p>
-                    <p><h3>How can you access them?</h3></p>
-                    <p><a href="chemnotes.html">Click here for Chemistry Notes</a></p>
-                </li>
-            </ul>
-        </div>
-        <div class = "info" id = "uniinfo">
-            <h1 class = "title_text">Univeristy Resources:</h1>
-            <h2 class = "subtitle_text_1">Monash Univeristy:</h2>
-            <ul>
-                <li>
-                    <h2 class = "subtitle_text">Faculty of Engineering:</h2>
-                    <h2>First Year Units:</h2>
-                    <ul class = "unitnames">
-                        <li>Engineering Mathematics (ENG1005)</li>
-                        <li>Engineering Methods (ENG1011)</li>
-                        <li>Engineering Design (ENG1012)</li>
-                        <li>Engineering Smart Systems (ENG1013)</li>
-                        <li>Engineering Numerical Analysis (ENG1014)</li>
+        <h1 class = "title_text">Specialist Mathematics UDFs:</h1>
+        <h2 class = "subtitle_text_1"> Linear Alegbra:</h2>
+        <ol>
+            <li>
+                <h2 class = "subtitle_text">1. Convert Form:</h2>
+                <p>
+                    <ul>
+                        <li>
+                            <button onclick="toggle('info1')"><h3 class = "name">• car2vecplane</h3></button>
+                            <div id = "info1" class = "invis">
+                                <p><b>Function: </b>Converts equation of plane from cartesian form to vector form</p>
+                                <p><b>Syntax:  </b>car2vecplane(Plane Cartesian)</p>
+                                <img src = "images/car2vecplane.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick="toggle('info2')"><h3 class = "name">• vec2carplane</h3></button>
+                            <div id = "info2" class = "invis">
+                                <b>Function: </b>Converts equation of plane from vector form to cartesian form
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>vec2carplane(Plane Vector)
+                                <br>
+                                <br>
+                                <img src = "images/vec2carplane.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick="toggle('info3')"><h3 class = "name">• vec2carline</h3></button>
+                            <div id = "info3" class = "invis">
+                                <b>Function: </b>Converts equation of line from vector form to cartesian form
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>vec2carline(line Vector)
+                                <br>
+                                <br>
+                                <img src = "images/vec2carline.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
                     </ul>
-                </li>
-                <li>
-                    <h2 class = "subtitle_text">Faculty of Information Technology:</h2>
-                    <h2>First Year Units:</h2>
-                    <ul class = "unitnames">
-                        <li>Continuous Mathematics for Computer Science (MAT1841)</li>
+                </p>
+            </li>
+            <li>
+                <h2 class = "subtitle_text">2. Minimum Distance:</h2>
+                <p>
+                    <ul>
+                        <li>  
+                            <button onclick="toggle('info4')"> <h3 class = "name">• dist2l</h3></button>
+                            <div id = "info4" class = "invis">
+                                <b>Function: </b>Determines minimum distance between two lines
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>dist2l(Line Vector 1, Line Vector 2)
+                                <br>
+                                <br>
+                                <img src = "images/dist2l1.png" width = "1000">
+                                <img src = "images/dist2l2.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick="toggle('info5')"> <h3 class = "name">• dist2pl</h3></button>
+                            <div id = "info5" class = "invis">
+                                <b>Function: </b>Determines minimum distance between two planes
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>dist2pl(Plane Cartesian 1, Plane Cartesian 2)
+                                <br>
+                                <br>
+                                <img src = "images/dist2pl.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick="toggle('info5')"> <h3 class = "name">• distlpl</h3></button>
+                            <div id = "info6" class = "invis">
+                                <b>Function: </b>Determines the minimum distance between a plane and line
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>distlpl(Line Vector, Plane Cartesian)
+                                <br>
+                                <br>
+                                <img src = "images/vec2carline.png" width = "1000">
+                                <br>
+                            </div> 
+                        </li>
                     </ul>
-                </li>
-                <li>
-                    <h2 class = "subtitle_text">Faculty of Science:</h2>
-                    <h2>First Year Units:</h2>
-                    <ul class = "unitnames">
-                        <li>Foundation Physics (PHS1001)</li>
-                        <li>Chemistry 1 (CHM1011)</li>
+                </p>
+            </li>
+            <li>
+                <h2 class = "subtitle_text">3. Intersections:</h2>
+                <p>
+                    <ul>
+                        <li>
+                            <button onclick="toggle('info7')"><h3 class = "name">• ints2l</h3></button>
+                            <div id = "info7" class = "invis">
+                                <b>Function: </b>Determines the point of intersection & angle between two lines
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>ints2l(Line Vector 1, Line Vector 2)
+                                <br>
+                                <br>
+                                <img src = "images/ints2l.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick="toggle('info8')"><h3 class = "name">• ints2pl</h3></button>
+                            <div id = "info8" class = "invis">
+                                <b>Function: </b>Determines the line of intersection & angle between two planes
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>ints2pl(Plane Cartesian 1, Plane Cartesian 2)
+                                <br>
+                                <br>
+                                <img src = "images/ints2pl.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick="toggle('info9')"><h3 class = "name">• intslpl</h3></button>
+                            <div id = "info9" class = "invis">
+                                <b>Function: </b>Determines the point of intersection & angle between line and plane
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>intslpl(Line Vector, Plane Cartesian)
+                                <br>
+                                <br>
+                                <img src = "images/vec2carline.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
                     </ul>
-                </li>
-            </ul>
-        </div>
-        <h2 class = "end_text">Credits:</h2>
+                </p>
+            </li>
+            <li>
+                <h2 class = "subtitle_text">4. Create:</h2>
+                <p>
+                    <ul>
+                        <li>
+                            <button onclick="toggle('info10')"><h3 class = "name">• line2p</h3></button>
+                            <div id = "info10" class = "invis">
+                                <b>Function: </b>Determines the equation of a line given two points
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>line2p(Point 1, Point 2)
+                                <br>
+                                <br>
+                                <img src = "images/line2p.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick="toggle('info11')"><h3 class = "name">• linedp</h3></button>
+                            <div id = "info11" class = "invis">
+                                <b>Function: </b>Determines the equation of a line given a direction vector and point
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>dist2pl(Plane Cartesian 1, Plane Cartesian 2)
+                                <br>
+                                <br>
+                                <img src = "images/dist2pl.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick="toggle('info12')"><h3 class = "name">• plane3p</h3></button>
+                            <div id = "info12" class = "invis">
+                                <b>Function: </b>Determines the equation of a plane given three points
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>plane3p(Point 1, Point 2, Point 3)
+                                <br>
+                                <br>
+                                <img src = "images/plane3p.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick="toggle('info13')"><h3 class = "name">• planenp</h3></button>
+                            <div id = "info13" class = "invis">
+                                <b>Function: </b>Determines the equation of a plane given a normal vector and a point
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>planenp(Normal Vector, Point)
+                                <br>
+                                <br>
+                                <img src = "images/planenp.png" width = "1000">
+                                <br>
+
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick="toggle('info14')"><h3 class = "name">• planeintl</h3></button>
+                            <div id = "info14" class = "invis">
+                                <b>Function: </b>Determines the equation of the plane formed by two intersecting lines
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>planeintl(Line Vector 1, Line Vector 2)
+                                <br>
+                                <br>
+                                <img src = "images/planeintl1.png" width = "1000">
+                                <img src = "images/planeintl2.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <h2 class = "subtitle_text">5. Vector Projection:</h2>
+                <p>
+                    <ul>
+                        <li>
+                            <button onclick="toggle('info15')"><h3 class = "name">• vproj</h3></button>
+                            <div id = "info15" class = "invis">
+                                <b>Function: </b>Determines vector, scalar resolute, & angle for two inputted vectors
+                                <br>
+                                <br>
+                                <b>Syntax:  </b>vproj(Vector 1, Vector 2)
+                                <br>
+                                <br>
+                                <img src = "images/vproj1.png" width = "1000">
+                                <img src = "images/vproj2.png" width = "1000">
+                                <br>
+                            </div>
+                        </li>
+                    </ul>
+                </p>
+            </li>    
+        </ol>
+        <h2 class = "end_text">How can you access the files?</h2>
+        <a href = "https://drive.google.com/drive/folders/1kmFe9ZECW4FR_DOkjyulF4P8ADFvEo_n?usp=sharing" target="_self">
+            <h2>Click here!</h2>
+        </a>
+        <h2 class = "credits">Credits:</h2>
         <p>Site coded by Kevin</p>
         <P>Thank you to Violet for providing the background image, and Jiarui for designing the site's logo.</P>
         <div class="container">
-            <h2 class = "end_text">Our Partners:</h2>
+            <h2>Our Partners:</h2>
             <a href="https://equ-ed.com/" target="_self"><img class = "centre" src="images/equed.png"></a>
         </div>
     </div>
