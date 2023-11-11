@@ -14,6 +14,10 @@ body{
     background-color: #F9F0F1;
     font-family: "Playfair Display", "consolas","sans-serif";
 }
+.stay{
+    color: black;
+    color: inherit;
+}
 .info{
     padding-left: 2%;
     padding-right: 2%;
