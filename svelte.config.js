@@ -20,7 +20,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/opensourcevce' : '',
+			base: process.env.NODE_ENV === 'production' ? '/opensourcevce.github.io' : '',
 		}
 	}
 };
