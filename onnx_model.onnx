@@ -1,0 +1,209 @@
+pytorch2.1.1:ß∏
+ø
+onnx::MatMul_0
+onnx::MatMul_18/l1/MatMul_output_0
+/l1/MatMul"MatMul2ÚC:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\model.py(13): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(124): wrapper
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(133): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1285): _get_trace_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(915): _trace_and_get_graph_from_model
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1011): _create_jit_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1135): _model_to_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1596): _export
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(516): export
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\conver_to_onnx.py(22): <module>
+
+≥
+l1.bias
+/l1/MatMul_output_0/l1/Add_output_0/l1/Add"Add2ÚC:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\model.py(13): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(124): wrapper
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(133): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1285): _get_trace_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(915): _trace_and_get_graph_from_model
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1011): _create_jit_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1135): _model_to_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1596): _export
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(516): export
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\conver_to_onnx.py(22): <module>
+
+û
+/l1/Add_output_0/relu/Relu_output_0
+/relu/Relu"Relu2‚C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py(1471): relu
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\activation.py(101): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\model.py(14): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(124): wrapper
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(133): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1285): _get_trace_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(915): _trace_and_get_graph_from_model
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1011): _create_jit_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1135): _model_to_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1596): _export
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(516): export
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\conver_to_onnx.py(22): <module>
+
+ƒ
+/relu/Relu_output_0
+onnx::MatMul_19/l2/MatMul_output_0
+/l2/MatMul"MatMul2ÚC:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\model.py(15): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(124): wrapper
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(133): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1285): _get_trace_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(915): _trace_and_get_graph_from_model
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1011): _create_jit_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1135): _model_to_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1596): _export
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(516): export
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\conver_to_onnx.py(22): <module>
+
+≥
+l2.bias
+/l2/MatMul_output_0/l2/Add_output_0/l2/Add"Add2ÚC:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\model.py(15): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(124): wrapper
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(133): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1285): _get_trace_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(915): _trace_and_get_graph_from_model
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1011): _create_jit_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1135): _model_to_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1596): _export
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(516): export
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\conver_to_onnx.py(22): <module>
+
+¢
+/l2/Add_output_0/relu_1/Relu_output_0/relu_1/Relu"Relu2‚C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py(1471): relu
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\activation.py(101): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\model.py(16): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(124): wrapper
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(133): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1285): _get_trace_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(915): _trace_and_get_graph_from_model
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1011): _create_jit_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1135): _model_to_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1596): _export
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(516): export
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\conver_to_onnx.py(22): <module>
+
+∆
+/relu_1/Relu_output_0
+onnx::MatMul_20/l3/MatMul_output_0
+/l3/MatMul"MatMul2ÚC:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\model.py(17): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(124): wrapper
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(133): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1285): _get_trace_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(915): _trace_and_get_graph_from_model
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1011): _create_jit_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1135): _model_to_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1596): _export
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(516): export
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\conver_to_onnx.py(22): <module>
+
+•
+l3.bias
+/l3/MatMul_output_017/l3/Add"Add2ÚC:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\linear.py(114): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\model.py(17): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1508): _slow_forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(124): wrapper
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(133): forward
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1527): _call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py(1518): _wrapped_call_impl
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py(1285): _get_trace_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(915): _trace_and_get_graph_from_model
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1011): _create_jit_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1135): _model_to_graph
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(1596): _export
+C:\Users\kevin\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\onnx\utils.py(516): export
+c:\Users\kevin\.vscode\sveltekit\my-app\static\chatbot\conver_to_onnx.py(22): <module>
+
+main_graph*/Bl1.biasJ ?ÊÅ?Ó„X??z?“LD?oÇ?‡æà?Ès?hC?*/Bl2.biasJ ›ÔDº_‚=Õó4?oŸj?⁄∆Ö?&V´>ƒe?≥…á>*ãBl3.biasJ|±–ΩŸ“…æ¡áç>ˆ¢æ“ Å=5ëü=‡ﬁÃ>z§ ?l>§…⁄>O€>Tﬁ™>a‘j>5ræÇÌÍæ F>∏›=œÒêæ.°k>È
+> Ö*?˘ªµæÙ÷	æSΩ`4ZΩb ≤æ›á=	Í≥æﬁJã>∫t∏>ÏZÉæ*öxBonnx::MatMul_18JÄ[ê–Ω?ˇã?À`˛>ë–ßæÁËªªØ6?„€D>{ÍæπïF?Q÷>–_o?À2…æ ?,˘‚>e¯U?Û∑>\â·ΩÒë–;ú©+Ω„?qî?≥Ωeëœ>å¶R>Ñ≠›æ0äøn%œ>ÊY‘==S∫?b“øt6íæD√™ΩfŒÈ>¢“Œ>e±<æ≥40>“kA?2ã&æπÇ∞=ı€?êÙÄøã°:øª&6øÚÎ7øë’¯>∑yæA9ΩæŸé‰Ωòb?ÏL1?ï1?â%±æûZõº0˘A?ÛLå>òùŒΩ±t‘>3?Î’ÄæBtæpN=?v∫==…_0æã,?Àº:>Md?ï-VΩå>¸æ??s"ùø{Ö>Sƒæo'T?;≥T?qÎ_>j?V!Ò=–øØuÄ?êë√=5õ!?BGh?ön¢?ƒu‡>ñFøˆc©>}û?¬Nø˚è?Y∆o?-Ñ=:˛¡´æÊ£‘æ“wC?™Òàø|NÑø„ò"?ñ \?Ö∑ô?=ªÇøàæHjRøƒ°Ô>πt?>«Ë?h‘ÂæÎ?—noΩIŸ?éÊÈº“_?K,Ù=˛ˇ>Á≥°=í© æ§8j?à%í>è„˚æc≠? ıÉøÁh?>?Ò=â?ó≥ÇøèÜ©æÕcø¸Ã>è›Ç?i|&ø˙√aøddøI‡m?åj?ñ∫tæ^⁄M?c„Nºà‘§?ñ\P?_ÉøΩ∏¸?I Øæ÷øæv£?\ﬁ>›+Ω!æFøC< æ√[Ωö	a?9”øÔë?Å='ê⁄æ ˛ˆæ€[∫>ÄÌB>|Ó§?4\·æDêØæûò∫>i%?7ﬂÅ>sLΩØjp?‚ì0æ¨Èê>A∏Ü>á}øË·Ω&8W?∆≠‚æH√N?¡wæù‰ñ>
+„≥æ	<gæ\fæ»ı˙>ƒp>æ¸®€>ƒôèΩ±±z>∑ æ$i>øeubø:0øÕß?Ÿrø+.î?Åå?WÏ øpbJø®{øGzøèu=H<Ñø]ª≥?wê?@Æ¢ø|"M?w+ø çÅø¿…M?(øÒ)ƒ>‰d6?%œÈæ´ÖË>¯;?}òÃ>ÉË∑Ω—Úv?µu%æ4ıÄ> ˇv><
+\?§≤§?ıc;9‚·Çø„¡ì?πß?èæ[êÉ?4£¿?˜h¨øaÃ,ΩÌiø˝Pí?oJ®ø®t6æ⁄§=‰CÕæWÒ?:™?≈5?äø∏=.æ∑ç4?ÙØ,>
+%«>54¬>S◊‡>u‘?.øæf	s>Ê1?XÕƒ><?0$’æºƒOø$∆å>+1?Ï_Ö?úﬂñ>{ñ‡>VÆ¯æd;¯>œ®?√Z$?“ø≤ı–Ωõ0√æ	O–>¬BøˇòÄ?ÙÌã?¿{ã>NœÇøÕéTø^Ç»?gØ'?¢“ÉøÄ?´d'?Â â?ò ÉøBTŒæoøı∫π>€\Éø2Np?]Ãı>“¨Eø$5Ç?≈›ñ?aücøa·ø·…á>¯Yˇ>
+Ã≠?!Ö?éØ±>’mø˛œÇ>∆w?'[Ü?ÂÔYø(Lkøa q?@}?∑∏É?ÆÑX?àÄE>=è∆>süΩ	Q®ΩÂ˚>®xR?∫ø’ü"?†˝>‘´>bl>∞.?¸ƒàæ«æ	oá?ﬂ≤?l§ øËî?á*?∏b\ø£æ∂vK?wñé?ØôtΩË2ƒ?˘À>sã^>ïﬁ?"ãåæf æ~ùÉ?Ó°?Jƒ øù’>–Ωô€„>çÔ∆Ω<N=hT-?}?Qoæºõ>jÀ?>∆#?>Pòæ\íÀæœÖ?	Ò?h˚ ø·ı:?ò’≠>íX„<ãp¬æ9o\?ù=?/ø¶CÚ>q!?Ü“†º†êü>_U¢æT<-?$Â‹>*®?ø@røµ¬Ÿ=]Ê5?…ÕÅ?r]x?‹;>5˜©æM€i?≈‰?êı±?O}[ø7ﬁ">¸ FøpM?›!äø	æ¨?Tn>Å±æè∆Ü>GâPΩË	‰>_>ÊÒ? ùÿºÛ±øE£L?ê∞¢?Øwg?¢≠(øÀvâø˙óÄ?Û9?¿tÉø»ÈÉ?˙H˛>,ƒEø˝;ç?®4è?úYø<ø˘Ñ;?ñqæ'≥4>´ùÕ;{X?xn`Ω˚.}?ÄyX<Ø˜Ω÷@>ı@D?È©æ_…ï>%•(æ„°ÀΩåÊk=g£Ø?#W[ø;O|ø÷ö"øÉQÉ?”k√=Òe?±Â"ø¥<?;°ÀΩ’Åy>Œ*Ñ>{Tô?Íøµ8?Bˇ>ìÉˆ>¢1¶= ’>Ñô?cΩG?Ïÿ>øiØΩ»å?∂£Tøì1◊>æ?Ó@?S–®æR´¡ææ'æùñ°>Å>Í¯æö›ñ>≤ÎæëX∑>ï>ÆR˚>.)>ΩºS.?Œ∫„æ<êµæsˆÉæx%?DBõΩx°?xø óÄ?9ôYøâ˙{øï9w?«pã?ì÷Ö?Ñk?ÿ∏∫>µvÉ?cíYø´àzø^É?LÌí?àãã?S>o?ßIÆ>ìÑøLÄ◊><?«e>?†ΩËæ£1Ùº…[èæÜà>≤ ?òã	øiÁtø’0?N¬ø¡ãÃ>p5?WˆæG˛&?ETﬂæw‚‘æπrzæø(?‹¿ãΩÃ¡Õ>ΩÈæ™ñ|?∫ﬁ?øÄctæxèo?P[⁄Ω´…æ^®g?Mâ@=Læ÷»∑Ω|Îˇ>éæå4Î>PòΩB5>Ë)˜ΩR38?§R⁄<îãsæm¨ı<®7*?b€¸> ´?§”–>êÀæÖ-q?/î?°UN?¨Ãø¶7àøµÆf?Q¨>‹éè>D-x>øè·>ªæ⁄^∆æ¶*q?r??˙ç ø/æˇ+Cøç*%øJ††æ&W?ÊU&øIñ?;4 øSaæÌ1ΩxÁé?íJØ>/&æÛzøm_≠æsÓp>ôr®æOÌ Ω€¨>$xß>¯ˇ˛Ω‹wêæÅØ>ÊáΩs‹«æè!.øtÈæz! øï º?Pâø^ æìàø —æí˙4ø∂ÂæÔ+øß¨∞?Y4âø…Ÿ≠æù|ø∏£"?ÌY’>ûV˛æ<XËæh⁄>‰e8?=<(øF∑K?W	>nTó>)QÅ?~ë?+…A?·äøÒ‹?›Új?!§?zåøÄÖøø@øPÍ{øÉ©~?¯pÛº(f@æc·=?‡⁄ø∏Nåø∫…T?¨ıømf°>wy1?©ú≥æı±Œ>Æ? Ÿ√>‚ä
+ΩAÇÅ?{æÇã>Ëˇã>À“A?Pu—æóøõ¬]øûSù?î˘ö>Ì æ∑KÅ>˛Ã≤æùÇ%?v≥>?Æä=˚¨?æ#Ω8øAû2?Ç£mæ∆û?˛ï?léæäDa?üŸ‰>L;qøÉ≠?Ríñ?¯zYø}'iøGïÇ?Â7?œÜ?ΩsI?+g∏=≥‰ÿæbŒ»Ωâö&?π´æΩÚ9?Èpæ‰Î™>˚èæÍ%Éøtc? ¡÷>
+¯Eø,ás?@Ìå? køﬂ€øÛokø≥ü»>Ì2?g> ?∏Ó„æÈ«©æNSxæ©°≠>Ùæj5`=◊\*æ5U≤ºn∑ø∆√ó?f‹»æã≤ßæöîm?ròòøm´løky+æ ?IøG>?w·t?>E?øî$áøt%ø†3∑?©4À?æ9Îæg˚ç>Åd4øwá¡?»/π?·¡:Ò˜0ø5o?≤Öì>‚dIæ3D©?¯ßc?"r[?∑ÚFø{xô?Û€Ñ?·pøﬁÇú?‚T9?uâ ?›+‰æ‡nøæf>æ>6B?∞¶3øÁΩL?è≤ıæ⁄ÇøÊMâ?ŸR¸æJ ^?˚˜ øc—¯<DÚüø<+ª>∑	ÛæL˚ÌæÆY^>HE^>Ön>éA?!Òæ¸Ω?rß?`∞ˇ>ˆGø99È?y+Ì>ˆÀ=ø–ËÜæˆ'ü>˜0=ÑÌOΩ,n≤ºbﬂ>yÎÍ> 9ΩˇMt>™≠7?a6µ?ÉÇøDNÊ?ƒÂi?ØÎπ?Ò?v?i¨À?·Ë*?øcd=Ê/*æ x<?ÿTÅ?`¿BæıTÇ?]‰Û>ñø|Ï?óA9?ÒƒB?ìiAøñºÕ=¯Œ˜>á◊;>nf7>ˇò∂>[<1?K∫Éæ∂swæz Ñ?µu?≠ƒÀæSúæâ"ΩD^í?§¡>Ωæ¢ÒÑøY”‹æ™I>®ì*øπ‰`øCûøˇKº?ªå{øïír?ŒÖ∫>Œ≠ø-ôæön˚=(»ùæ¡€RΩbî)ø'Wó?ªÀæ«ì√æ©s§æó
+ãæ&u·>'€C>ÄH§Ω-ÑŒæî>2>ˆû•Ω´+!øvQ˘Ω®£ÄΩ⁄ì2?ñ3ÓæµÕ—>zu∏>‚⁄ÑæA©4?v2>!ùΩ¥ﬂmæéƒ[?Õ…h?ù9ıæÆ)?m'T?ES?&ñ?¸òÉøÄÈ¿?À9îæÚ=≤æ3o?ŒnÄ>æƒô?∑ÑøC∫qø•É^?»·©?q]áΩÄ ÛæxA`øî◊ñ?¿8≈?¶≠'>ÅïøKÂ>x>`hãø›ûˆæı»"æcÈæ>Q~d>j˚ÛΩˇ¥•æ¯W>W`3ΩtÚ®?4/c?=·Z?*©DøCæñ?)2{?Üãsø8õ?∫¿«?˘Ø!?ã—>9ΩFø∑eÿ?E»Ω>ÌÒKø™Y“æ<h?ØäæÕ∞ªæÄæ¬æºeæÉ)L?WDæxòû>óHà?∆%>¿^VæÌ†¡>CRæ¥H‹?¸áæN:2?™æO?≈±∞æîÁ≤æm◊˚æ‘˛'æÛAO?Ÿˆ/æœà‘>§û≠?gp9ø∑—->CY•?k ÜæŒˆ˜æöH?Îß#?pÑ>ù†â>πô?™˘ï?¬,9?(±âø3h˜>@Wi?jó›>(\>´+?úZ®æ6b¬æ∑'è?£n?àÆ ø¸åu?ì¸ó>™≤3?Qc⁄>úáæ≤ö?Ùàæ¢U§>”P¢=EF>lóË>ŸÉ,æ°qøá˘ö>§eÉ=°ü?*öBonnx::MatMul_19JÄÅS∞?Ÿ–û?nóøêØ∏øçtŒ?ıb•>˛ˇ£?g6Ö?%WøÃ  ?Ô‡≥?.Ø??T¿≈øõV?$<@ø—⁄?Ø⁄ìøO@O⁄?pfö?<+Ÿ>P‰;??Ÿ*ø∆V÷>Ò.i?¨u@«Œ˚?“Ê=°ÚºæÍNkøl\_>Õ¥ø_îÂ?Bj∫ø
+æ÷¡?ÿÃ‹?m@w)æ
+7¬?VIõ>˘óJøÓÔŒ>Våø~«áø∏§◊æëú@°m‰?õ?bÚœ?±îe?ë>?FT[?Ê∑¨?4îﬁ?‡
+¿b?Ñ?∞@+–ævuÂø/ﬂDø»ƒ=ø~‚äøA¬?*˙Bonnx::MatMul_20J‡VR2ΩdbΩ¸ú°=83áø_F=—ö˝>O£Öøˇ_ƒ>„´F>ë¿±<æø¨ì"øf_ÿø≈3@?ùΩøv˝S=îz!?ªÿ$?D=>…80¿{íâ>rëøÁ*A?]->M–¯æ/M?nÇ¿˛bQ?<ÃøM
+Qæˆ¬Éæ¶¿ >Û3ø/æ¨æ\Ô?eÿ-øg#6¿M+±ø´’>ø|0Ω"b!?qùø—¿‹æè0?ò⁄Xøg·?DtΩ‡∏¿π$MΩÕ·»øË¡ΩÎã¿´€ÖøA®Ñø…õ#>[É¢æ⁄tN¿i1¸πGö)æ&âØø(ÔÿøªŒøÅ◊>B%≈æ…˙˙øê∆>ë©æ˚‹¬ΩÜ∂¡>2?ˆa¸>b?Ø)X>ˇÜô>Ez‚>–yæ∂?>‚©¿ó6¿ëø\çπæÔ:?¬…Bø¬Çéæ¨ë5¿Bıùæ¸∞@>gÉ ¿∫?Ω
+ª>à0•>∏4Öø∂òØæ˜},¿ì¿6"ãø/”]¿ıK:æáÍ˚øäS1?∞¿+Î(ø ﬂ?z∂n?˚ø>øär¿ëõ=¿H ¿ Ä¥øn¿ftΩ([?m€=?©øb Èød±g¿öø
+S¿;a>®∏A¿î?ˆ$∆æÏÖR¿í≤íø?à¿≥Q˜Ω0ô+¿"»]æÄü<≠p?Y‹ø£Üè=.‰Mø»˚$¿°«ø}s¿ÓidΩ·Ωú‘J?_∂Ù>◊ÁŸ>@\?ó˚]>˚’4?¯zøzﬁøÔÎR>9¿é∆±æäÔ#¿¡?6¿K¯¿S#û>óÕøÎ+Ñ¿EGø¥Y+¿ÚÏ◊øΩÛ?<é"¿oèy>∂ò¿ﬂØÒæ1Ü\¿xjF>%Ÿ]æp—ÎΩ2Ø^æ«©⁄æa‡Kæa?AJõ>É◊<?aí=2⁄>hõTøÈïkø“‘ø=óæ“MäæÕ¥Çº∂9JøJ¿ áñ>s6òΩ≠*=9ï=£ìe?©ÿ°ø‰<¿Û c?iøå:Ø?/Ê©ø(¢0¿É¥æıÜ?„Åøò	?@Áø#˝-ø€ñ?xé	øâ!I>∞£“øv˘Âæ–#`æ
+<Ω'Ñ?Û˙¸ø3ƒ>€'ΩÔ®ôæåZ?#&=ÿ≤¡æ`x˛=Á°7?ﬂçΩÚ]F>õ(æ—3Æ>ƒBPøf\Êøs˛Wøë‹Èæ"Æ>¯…∑æ∞y¿ÊÉø#Ô%¿ÿ§üæ˙Bøî@>¿ êS¿◊&¿”ñæ,sSø!∏+?¥˙2¿”;?.J$?(mæ=ƒËæMN+?"Ij>Ô‚Ù>Z(
+onnx::MatMul_0
+
+
+
+
+xb
+17
+
+
+
+
+B
