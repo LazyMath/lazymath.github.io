@@ -1,6 +1,7 @@
 <script>
 import { onMount } from "svelte";
 import disp_data from "../store.js";
+import {base} from '$app/paths';
 function toggle_dark_theme() {
     document.body.classList.toggle("dark-mode");
     if (document.body.classList.contains("dark-mode")){
@@ -46,9 +47,9 @@ onMount(() => {
     <img class = "site-logo" src = {$disp_data["logo_id"]} alt = "site logo">
     <nav>
         <ul>
-            <li><a href="/" class = "stay">Home</a></li>
-            <li><a href="/about" class = "stay">About Us</a></li>
-            <li><a href="/contact" class = "stay">Contact Us</a></li>
+            <li><a href="{base}/" class = "stay">Home</a></li>
+            <li><a href="{base}/about" class = "stay">About Us</a></li>
+            <li><a href="{base}/contact" class = "stay">Contact Us</a></li>
             <li><button on:click={() => toggle_dark_theme()} style="width:0%; cursor:default;"><img src={$disp_data["svg_id"]} alt = "moon-icon" id="icon"></button></li>
         </ul>
     </nav>
