@@ -419,9 +419,6 @@ nav ul li button img {
 .exp-prgm-button {
     padding-left:2%; padding-right: 2%;
     transition: 0.15s;
-    -moz-box-shadow: 0 0 15px var(--shadow-colour);
-    -webkit-box-shadow: 0 0 15px var(--shadow-colour);
-    box-shadow: 0 0 15px var(--shadow-colour);
 }
 .exp-prgm-button:hover {
     transform: scale(1.02);   
